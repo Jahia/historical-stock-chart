@@ -1,0 +1,13 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jnt:historicalChart] > jnt:content, jmix:structuredContent
+ - chartTitle (string) mandatory
+ - stockSymbol (string) mandatory
+ - dateTime (long) = '0' mandatory
+ - dateInterval (string, choicelist) mandatory < 'All', 'Years', 'Months'
+
+[jnt:historicalChartConnector] > jnt:content, jmix:droppableContent, jmix:hiddenType
+ - apiUrl (string)
+ - apiKey (string)
+

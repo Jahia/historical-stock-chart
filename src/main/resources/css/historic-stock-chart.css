@@ -1,0 +1,37 @@
+div#stock-chart {
+  height: 417px;
+  background: url('ajax-loader.gif') #fff center center no-repeat;
+}
+
+div.stock-chart {
+  height: 417px;
+  background: url('ajax-loader.gif') #fff center center no-repeat;
+}
+
+.weierstrass .envision-timeseries-summary .envision-component {
+  height: 200px;
+}
+
+.million .envision-timeseries-connector,
+.million .envision-timeseries-summary {
+  background: #fff;
+
+}
+.million .envision-timeseries-detail {
+  padding-top: 26px;
+  padding-bottom: 18px;
+}
+.million .envision-timeseries-detail .envision-component {
+  height: 104px;
+}
+.million .envision-timeseries-summary {
+}
+.million .envision-timeseries-summary .envision-component {
+  height: 150px;
+}
+.stock-chart-content-edit {
+  width: 100%;
+}
+.stock-chart-content-edit > img {
+  width: 100%;
+}
